@@ -1,3 +1,5 @@
+Usuario de github: https://github.com/acavero.
+
 En el composer.json de la aplicación hay que añadir
 "require":
 {
