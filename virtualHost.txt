@@ -1,0 +1,25 @@
+<VirtualHost *:80>
+  ServerName vagrant.mpwar.com
+
+  ## Vhost docroot
+  DocumentRoot "/www/framework/public"
+  ## Directories, there should at least be a declaration for /www
+
+  <Directory "/www">
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+  </Directory>
+
+  ## Load additional static includes
+  ## Logging
+  ErrorLog "/var/log/httpd/aqOhKKIzn5M9_error.log"
+  ServerSignature Off
+  CustomLog "/var/log/httpd/aqOhKKIzn5M9_access.log" combined
+  ## Server aliases
+  ServerAlias www.vagrant.mpwar.com
+  ## SetEnv/SetEnvIf for environment variables
+  SetEnv APP_ENV dev
+  ## Custom fragment
+</VirtualHost>
