@@ -17,7 +17,7 @@
     <div class="well well-small">
         <h3>Vas a proceder a insertar un usuario por nombre</h3>
         <p>Para ello, escribe su nombre en la url, a continuación de una barra, por ejemplo: /Bruce/Wayne<p>
-        <p>Puedes insertar también sólo el nombre, sin <apellido class=""></apellido></p>
+        <p>Puedes insertar también sólo el nombre, sin apellido</p>
     </div>
 </div>
 </body>

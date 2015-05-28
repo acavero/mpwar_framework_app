@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acavero/mpwarfwk.git",
-                "reference": "959efa57960d766d8356c7b35cbe430013b4ad71"
+                "reference": "7f2ae9627d5ea516510abe8599a224c99a215d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acavero/mpwarfwk/zipball/959efa57960d766d8356c7b35cbe430013b4ad71",
-                "reference": "959efa57960d766d8356c7b35cbe430013b4ad71",
+                "url": "https://api.github.com/repos/acavero/mpwarfwk/zipball/7f2ae9627d5ea516510abe8599a224c99a215d0d",
+                "reference": "7f2ae9627d5ea516510abe8599a224c99a215d0d",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 "source": "https://github.com/acavero/mpwarfwk/tree/devel",
                 "issues": "https://github.com/acavero/mpwarfwk/issues"
             },
-            "time": "2015-03-21 12:21:33"
+            "time": "2015-03-23 15:56:59"
         },
         {
             "name": "smarty/smarty",
